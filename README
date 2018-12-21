@@ -1,0 +1,2 @@
+Simple script to modify an ldap date based on a search filter.
+The script just subtracts a year from the date at the moment: I'm on a deadline.
