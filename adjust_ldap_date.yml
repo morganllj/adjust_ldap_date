@@ -1,0 +1,10 @@
+
+# FYI: this the modification to the attr is not yet configurable.
+# As-is it subtracts 1 year from dateattr
+ldap:
+  host: ldaps://host.fqdn
+  binddn: cn=directory manager
+  bindpass: pass
+  basedn: dc=domain,dc=org
+  search: (&(attr=*)(|(objectclass=oc1)(objectclass=oc2))))
+  dateattr: attr
